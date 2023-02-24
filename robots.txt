@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /apoyos_cookies/
+Disallow: /workInProgress/
+Sitemap: https://www.granatensistraduccion.com/sitemap.xml
