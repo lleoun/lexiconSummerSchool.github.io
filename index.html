@@ -63,8 +63,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.min.css">
 
-    <!--  recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfO7BwkAAAAADu0qaivG1faADylVvOdr-Oz8T_d"></script>
+
 
     <!--  cookies -->
     <!-- <link rel="stylesheet" href="cookies/demo.css">
@@ -90,6 +89,7 @@
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="#welcome" class="nav-item nav-link">WELCOME</a>
                 <a href="#info" class="nav-item nav-link">INFORMATION</a>
+                <a href="program.pdf" class="nav-item nav-link">PROGRAM</a>
                 <a href="#location" class="nav-item nav-link">LOCATION</a>
                 <a href="#faculty" class="nav-item nav-link">FACULTY</a>
                 <a href="#apply" class="nav-item nav-link">APPLY</a>
@@ -208,11 +208,11 @@
                         <i class="fa fa-file-signature fa-2x"></i>
                     </div>
                     <h3 class="mb-3">Registration</h3>
-                    <p class="mb-0">Early Bird Deadline<br>
-                        April 15th 2023<br>
+                    <p class="mb-0">Early Bird Deadline:<br>
+                        April 15th, 2023<br>
 
-                        Regular Deadline <br>
-                        July 1st 2023
+                        Regular Deadline: <br>
+                        July 1st, 2023
                     </p>
                 </div>
             </div>
@@ -252,7 +252,7 @@
                     <!-- <p class="mb-0">The Summer School will organize various cultural activities.<br> -->
                     <p class="mb-0">The Summer School will organize various cultural activities.<br>
 
-                        <a href="" id="linkProgram">Download our program here</a>
+
                     </p>
                 </div>
             </div>
@@ -491,49 +491,101 @@
         <div class="row g-0">
             <div class="col-lg-6 py-6 px-5">
                 <h1 class="display-5 mb-4">Apply</h1>
-                <p class="mb-4">Rellene el siguiente formulario de apply y uno de nuestros representantes se pondrá en
-                    apply con usted lo antes posible</p><br>
-                <form id="contact-form" method="post" action="https://formspree.io/f/mayzqead" role="form"
+                <p class="mb-4"></p><br>
+                <form id="contact-form" method="post" action="https://formspree.io/f/xlekbkza" role="form"
                     class="contact_form">
                     <div class="row gx-3">
                         <div class="col-6">
                             <div class="form-floating">
                                 <input type="text" name="name" class="form-control" id="form-floating-1"
-                                    placeholder="nombre" required>
-                                <label for="form-floating-1">Su nombre</label>
+                                    placeholder="Full name" required>
+                                <label for="form-floating-1">Full name</label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-floating mb-3">
                                 <input type="email" name="email" class="form-control" id="form-floating-2"
                                     placeholder="email" required>
-                                <label for="form-floating-2">Su email</label>
+                                <label for="form-floating-2">Email</label>
                             </div>
                         </div>
 
                     </div>
 
+
+                    <div class="row gx-3">
+                        <div class="col-6">
+                            <div class="form-floating">
+                                <input type="text" name="phone" class="form-control" id="form-floating-1"
+                                    placeholder="Phone Number" required>
+                                <label for="form-floating-1">Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" name="institution" class="form-control" id="form-floating-2"
+                                    placeholder="Institution" required>
+                                <label for="form-floating-2">Institution</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row gx-3">
+                        <div class="col-6">
+                            <div class="form-floating">
+                                <input type="text" name="cae" class="form-control" id="form-floating-1"
+                                    placeholder="Current Academic Status" required>
+                                <label for="form-floating-1">Current Academic Status</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" name="fos" class="form-control" id="form-floating-2"
+                                    placeholder="Field of Study" required>
+                                <label for="form-floating-2">Field of Study</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-3">
+                        <div class="col-6">
+                            <div class="form-floating">
+                                <input type="text" name="dp" class="form-control" id="form-floating-1"
+                                    placeholder="Degree Program" required>
+                                <label for="form-floating-1">Degree Program</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-floating mb-3">
+                                <input type="date" name="egd" class="form-control" id="form-floating-2"
+                                    placeholder="Expected Graduation Date" required>
+                                <label for="form-floating-2">Expected Graduation Date</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-floating mb-3">
+                            <input type="file" name="pdf_file" class="form-control" id="form-floating-3"
+                                accept=".pdf" required>
+                            <label for="form-floating-3">Upload proof of payment (pdf)</label>
+                        </div>
+                    </div>
+
                     <div class="col-12">
                         <div class="form-floating">
                             <textarea type="text" name="message" id="mensaje" class="form-control" id="form-floating-1"
-                                placeholder="qué necesita" required></textarea>
-                            <label for="form-floating-1">Díganos que necesita</label>
+                                placeholder="Briefly describe your research interests and how attending the summer school can help you in your research" required></textarea>
+                            <label for="form-floating-1">Research Interests</label>
                         </div>
                     </div><br>
                     <div class="contact_msg" style="display: none">
-                        <p>El mensaje fue enviado.</p>
+                        <p>Message sent.</p>
 
                     </div>
                     <div class="col-6">
-                        <button class="btn btn-primary w-100 h-100" aria-label="submit" type="submit">Enviar</button>
+                        <button class="btn btn-primary w-100 h-100" aria-label="submit" type="submit">Send</button>
                     </div>
-                    <div class="col-12"><br>
-                        <p class="legal">Esta web está protegida por reCAPTCHA y se aplica la <a target="_blank"
-                                href="https://policies.google.com/privacy?hl=es"> política de privacidad</a> y las <a
-                                target="_blank" href="https://policies.google.com/terms?hl=es">condiciones de
-                                servicio</a> de Google.</p>
-                    </div>
-                    <!-- hidden reCaptcha token input -->
+
                     <input type="hidden" id="token" name="token">
                 </form>
             </div>
@@ -618,8 +670,8 @@
 
     <div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5"
         style="border-color: rgba(256, 256, 256, .1) !important;">
-        <p class="m-0 pq">&copy; Lexicon Summer School. Todos los derechos reservados. <a
-                class="text-secondary border-bottom" href="#" id="politicaPrivacidad_es">Política de privacidad</a>.
+        <p class="m-0 pq">&copy; Lexicon Summer School. Todos los derechos reservados.
+            <!-- <a class="text-secondary border-bottom" href="#" id="politicaPrivacidad_es">Política de privacidad</a>. -->
             Designed by <a class="text-secondary border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
     </div>
     <!-- Footer End -->
@@ -642,23 +694,6 @@
     <!-- <script defer src="cookies/cookieconsent.js"></script>
     <script defer src="cookies/cookieconsent-init_es.js"></script> -->
 
-
-    <script>
-        grecaptcha.ready(function () {
-            grecaptcha.execute('6LfO7BwkAAAAADu0qaivG1faADylVvOdr-Oz8T_d', { action: 'homepage' }).then(function (token) {
-                // console.log(token);
-                document.getElementById("token").value = token;
-            });
-            // refresh token every minute to prevent expiration
-            setInterval(function () {
-                grecaptcha.execute('6LfO7BwkAAAAADu0qaivG1faADylVvOdr-Oz8T_d', { action: 'homepage' }).then(function (token) {
-                    //console.log( 'refreshed token:', token );
-                    document.getElementById("token").value = token;
-                });
-            }, 60000);
-
-        });
-    </script>
     <script>
         $('.team-slider').owlCarousel({
             loop: true,
