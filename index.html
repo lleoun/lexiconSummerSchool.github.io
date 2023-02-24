@@ -492,19 +492,19 @@
             <div class="col-lg-6 py-6 px-5">
                 <h1 class="display-5 mb-4">Apply</h1>
                 <p class="mb-4"></p><br>
-                <form id="contact-form" method="post" action="https://formspree.io/f/xlekbkza" role="form"
+                <form id="contact-form" enctype="multipart/form-data" method="post" action="https://formspree.io/f/xlekbkza" role="form"
                     class="contact_form">
                     <div class="row gx-3">
                         <div class="col-6">
                             <div class="form-floating">
-                                <input type="text" name="name" class="form-control" id="form-floating-1"
+                                <input type="text" name="Name" class="form-control" id="form-floating-1"
                                     placeholder="Full name" required>
                                 <label for="form-floating-1">Full name</label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-floating mb-3">
-                                <input type="email" name="email" class="form-control" id="form-floating-2"
+                                <input type="email" name="Email" class="form-control" id="form-floating-2"
                                     placeholder="email" required>
                                 <label for="form-floating-2">Email</label>
                             </div>
@@ -516,14 +516,14 @@
                     <div class="row gx-3">
                         <div class="col-6">
                             <div class="form-floating">
-                                <input type="text" name="phone" class="form-control" id="form-floating-1"
+                                <input type="text" name="Phone" class="form-control" id="form-floating-1"
                                     placeholder="Phone Number" required>
                                 <label for="form-floating-1">Phone Number</label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-floating mb-3">
-                                <input type="text" name="institution" class="form-control" id="form-floating-2"
+                                <input type="text" name="Institution" class="form-control" id="form-floating-2"
                                     placeholder="Institution" required>
                                 <label for="form-floating-2">Institution</label>
                             </div>
@@ -533,14 +533,14 @@
                     <div class="row gx-3">
                         <div class="col-6">
                             <div class="form-floating">
-                                <input type="text" name="cae" class="form-control" id="form-floating-1"
+                                <input type="text" name="Current_Academic_Status" class="form-control" id="form-floating-1"
                                     placeholder="Current Academic Status" required>
                                 <label for="form-floating-1">Current Academic Status</label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-floating mb-3">
-                                <input type="text" name="fos" class="form-control" id="form-floating-2"
+                                <input type="text" name="Field_Study" class="form-control" id="form-floating-2"
                                     placeholder="Field of Study" required>
                                 <label for="form-floating-2">Field of Study</label>
                             </div>
@@ -549,14 +549,14 @@
                     <div class="row gx-3">
                         <div class="col-6">
                             <div class="form-floating">
-                                <input type="text" name="dp" class="form-control" id="form-floating-1"
+                                <input type="text" name="Degree_Program" class="form-control" id="form-floating-1"
                                     placeholder="Degree Program" required>
                                 <label for="form-floating-1">Degree Program</label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-floating mb-3">
-                                <input type="date" name="egd" class="form-control" id="form-floating-2"
+                                <input type="date" name="Expected_Graduation_Date" class="form-control" id="form-floating-2"
                                     placeholder="Expected Graduation Date" required>
                                 <label for="form-floating-2">Expected Graduation Date</label>
                             </div>
@@ -565,15 +565,15 @@
 
                     <div class="col-12">
                         <div class="form-floating mb-3">
-                            <input type="file" name="pdf_file" class="form-control" id="form-floating-3"
-                                accept=".pdf" required>
+                            <!-- <input type="file" name="pdf_file" class="form-control" id="form-floating-3" accept=".pdf" required> -->
+                            <input type="file" name="attachment" accept="application/pdf" class="form-control" id="form-floating-3" required>
                             <label for="form-floating-3">Upload proof of payment (pdf)</label>
                         </div>
                     </div>
 
                     <div class="col-12">
                         <div class="form-floating">
-                            <textarea type="text" name="message" id="mensaje" class="form-control" id="form-floating-1"
+                            <textarea type="text" name="Research_Interests" id="Research_Interests" class="form-control" id="form-floating-1"
                                 placeholder="Briefly describe your research interests and how attending the summer school can help you in your research" required></textarea>
                             <label for="form-floating-1">Research Interests</label>
                         </div>
@@ -586,7 +586,7 @@
                         <button class="btn btn-primary w-100 h-100" aria-label="submit" type="submit">Send</button>
                     </div>
 
-                    <input type="hidden" id="token" name="token">
+                    <!-- <input type="hidden" id="token" name="token"> -->
                 </form>
             </div>
             <div class="col-lg-6" style="min-height: 400px;">
