@@ -89,7 +89,7 @@
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="#welcome" class="nav-item nav-link">WELCOME</a>
                 <a href="#info" class="nav-item nav-link">INFORMATION</a>
-                <a href="program.pdf" class="nav-item nav-link">PROGRAM</a>
+                <a href="program.pdf" target="_blank" class="nav-item nav-link">PROGRAM</a>
                 <a href="#location" class="nav-item nav-link">LOCATION</a>
                 <a href="#faculty" class="nav-item nav-link">FACULTY</a>
                 <a href="#apply" class="nav-item nav-link">APPLY</a>
@@ -104,14 +104,14 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="images/expertos_en_traduccion.jpg"
-                        alt="Expertos en traducción de documentos legales y técnicos del francés al español">
+                    <img class="w-100" src="images/lexicon_summer_school.jpg"
+                        alt="Lexicon summer school">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase">Lexicon International Doctoral Summer School</h5>
                             <h1 class="display-1 text-white mb-md-4">Terminology management in the age of artificial
                                 intelligence</h1><br>
-                            <a href="#apply" class="btn btn-primary py-md-3 px-md-5 me-3 rounded-pill">Apply</a>
+                            <a href="#apply" class="btn btn-secondary py-md-3 px-md-5 me-3 rounded-pill">Apply</a>
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,8 @@
 
 
     <!-- welcome Start -->
-    <div class="container-fluid bg-secondary p-0" id="welcome">
+    <!-- <div class="container-fluid bg-secondary p-0" id="welcome"> -->
+        <div class="container-fluid pt-6" id="welcome">
         <div class="row g-0">
             <div class="col-lg-6 py-6 px-5">
                 <h1 class="display-5 mb-4"><span class="text-primary">Welcome to </span>Lexicon Doctoral Summer School
@@ -184,7 +185,8 @@
 
 
     <!-- info Start -->
-    <div class="container-fluid pt-6 px-5" id="info">
+    <div id="info" style="padding-top: 20px;"></div> <!-- hack para que el anchor llegue a antes del título-->
+    <div class="container-fluid pt-6 px-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
             <h1 class="display-5 mb-0">Information</h1>
             <hr class="w-25 mx-auto bg-med">
@@ -270,39 +272,9 @@
     </div>
     <!-- info End -->
 
-
-    <!-- location start-->
-    <!-- <div class="container-fluid pt-6 px-5" id="location">
-    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-        <h1 class="display-5 mb-0">Location & venue</h1>
-        <hr class="w-25 mx-auto bg-med">
-    </div>
-    <div class="row g-0 align-items-center">
-        <div class="col-lg-6 py-6 px-5">
-
-            <h4 class="text-primary mb-4">Hotel Helios Costa Tropical<br>
-                Paseo San Cristóbal, 12, 18690 Almuñécar, Granada
-                </h4>
-            <p>The beautiful location in Almuñecar, just 45 minutes from Granada and 75 minutes from Malaga International Airport, provides ample networking opportunities. Participants and professors will be housed in the same hotel or nearby lodgings, thus enhancing collaboration.</p>
-            <p>Almuñécar is located on the southern coast of Spain, in the province of Granada. The town is famous for its stunning beaches, historic landmarks, and charming Andalusian atmosphere.</p>
-            <p>The event will be held at the Helios Hotel Conference Center, a modern and spacious facility located in the heart of the town. The conference center features multiple lecture halls, seminar rooms, and ample space for networking and socializing.</p>
-            <p>Almuñécar is well-connected to major airports in Granada and Malaga, making it easily accessible from anywhere in the world. Participants can take advantage of the town's many restaurants, cafes, and bars, as well as explore its vibrant nightlife and cultural attractions.</p>
-            <p>With its sunny climate, picturesque beaches, and rich history, Almuñécar is the perfect location for a summer school, offering a unique and inspiring environment for learning, networking, and relaxation.</p>
-
-        </div>
-        <div class="col-lg-6 d-flex justify-content-center">
-            <img src="images/almunecar_800.jpg" alt="almunecar beach" style="height: 600px; width: 600px;">
-              <img src="images/almunecar_800.jpg" alt="almunecar beach" class="w-100">
-        </div>
-    </div>
-</div> -->
-
-    <!-- location end -->
-
-
-
     <!-- location Start -->
-    <div class="container-fluid pt-6 px-5" id="location">
+    <div id="location" style="padding-top: 20px;"></div> <!-- hack para que el anchor llegue a antes del título-->
+    <div class="container-fluid pt-6">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
             <h1 class="display-5 mb-0">Location & venue</h1>
             <hr class="w-25 mx-auto bg-med">
@@ -336,7 +308,7 @@
                         relaxation.</p>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <img style="float: right; border: 1px solid teal;" class="img-fluid" src="images/almunecar_519.jpg">
+                    <img style="float: right; border: 1px solid teal; object-fit: cover;" class="img-fluid" src="images/almunecar_519.jpg">
                 </div>
             </div>
         </div>
@@ -344,7 +316,8 @@
     <!--  location  End -->
 
     <!-- faculty start-->
-    <div class="container-fluid pt-66 px-5" id="faculty">
+    <div id="faculty" style="padding-top: 20px;"></div> <!-- hack para que el anchor llegue a antes del título-->
+    <div class="container-fluid pt-66 px-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
             <h1 class="display-5 mb-0">Faculty</h1>
             <hr class="w-25 mx-auto bg-med">
@@ -487,7 +460,9 @@
 
 
     <!-- apply Start -->
-    <div class="container-fluid bg-secondary px-0" id="apply">
+
+    <div id="apply" style="padding-top: 50px;"></div> <!-- hack para que el anchor llegue a antes del título-->
+    <div class="container-fluid bg-secondary px-0">
         <div class="row g-0">
             <div class="col-lg-6 py-6 px-5">
                 <h1 class="display-5 mb-4">Apply</h1>
