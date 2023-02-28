@@ -69,7 +69,7 @@
     });
 
 
-    // Testimonials carousel
+    // Testimonials carousel para la sección faculty
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
@@ -83,6 +83,9 @@
         ],
     });
 
+//en style.css mira html {}
+    const navigationHeight = document.querySelector('.navbar-expand-lg').offsetHeight;
+    document.documentElement.style.setProperty('--scroll-padding',navigationHeight+"px");
 
 })(jQuery);
 

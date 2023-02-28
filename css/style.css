@@ -5,6 +5,11 @@
     --light: #FFFFFF;
     --dark: #2b2e63;
 }
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding, 50px); /* se va a 50px (height of sticky header) si no entra el javascript de main.js en acción */
+}
+
 /* body{
     background-color: #F6F6F6;
 } */
@@ -70,25 +75,6 @@ h5,
 h6,
 .font-weight-medium {
     font-weight: 500 !important;
-}
-.pt-45 {
-    padding-top: 45px;
-}
-.pt-6 {
-    padding-top: 90px;
-}
-.pt-66 {
-    padding-top: 90px;
-    padding-bottom: 90px;
-}
-
-.pb-6 {
-    padding-bottom: 90px;
-}
-
-.py-6 {
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .btn {
@@ -325,6 +311,26 @@ h6,
 .pq{font-size: 12px;}
 px-5{padding-right:1rem !important;padding-left:1rem !important}
 
+.pt-90 {
+    padding-top: 90px;
+}
+.pt-6 {
+    padding-top: 90px;
+}
+.pt-66 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.pb-6 {
+    padding-bottom: 90px;
+}
+
+.py-6 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* PANTALLAS MEDIA PEQUEÑAS */
   @media screen and (max-width: 963px) {
 
@@ -345,6 +351,20 @@ px-5{padding-right:1rem !important;padding-left:1rem !important}
         bottom: 130px;
         z-index: 99;
     }
+    /* .pt-90 {
+        padding-top: 10px;
+    } */
+
+    /* #info{
+        padding-top:0px;
+    } */
+    /*
+    #location
+    #faculty
+    #apply */
 }
 
 
+/* #info{
+    padding-top:100px;
+} */
