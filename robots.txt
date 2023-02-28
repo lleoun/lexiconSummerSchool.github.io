@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /apoyos_cookies/
+Disallow: /APOYOS/
 Disallow: /workInProgress/
 Sitemap: https://www.lexiconsummerschool.com/sitemap.xml
