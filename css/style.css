@@ -321,12 +321,9 @@ h6,
 
 }
 
-
-
-
-
 #iconInfos{width: 90px; height: 90px;}
 .pq{font-size: 12px;}
+px-5{padding-right:1rem !important;padding-left:1rem !important}
 
 /* PANTALLAS MEDIA PEQUEÑAS */
   @media screen and (max-width: 963px) {
@@ -350,4 +347,4 @@ h6,
     }
 }
 
-px-5{padding-right:1rem !important;padding-left:1rem !important}
+
