@@ -85,8 +85,13 @@
 
 //en style.css mira html {}
     const navigationHeight = document.querySelector('.navbar-expand-lg').offsetHeight;
-   //alert(navigationHeight);
-    document.documentElement.style.setProperty('--scroll-padding',navigationHeight+"px");
+    let aumento;
+    if ($(window).width() <= 963) {
+        aumento = 450; // si es movil aumenta estos pixeles para que se vea bien
+    } else {
+        aumento = 0;
+    }
+    document.documentElement.style.setProperty('--scroll-padding',navigationHeight+aumento+"px");
 
 })(jQuery);
 
