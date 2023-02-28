@@ -40,7 +40,11 @@ html {
 .bg-dark {
     background-color: #2b2e63 !important;
   }
+  .text-dark {
+    color: #2b2e63 !important;
+    text-decoration: none;
 
+  }
 .legal a{
     color:#355DD2 !important;
     font-size: 10px;
