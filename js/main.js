@@ -85,6 +85,7 @@
 
 //en style.css mira html {}
     const navigationHeight = document.querySelector('.navbar-expand-lg').offsetHeight;
+   alert(navigationHeight);
     document.documentElement.style.setProperty('--scroll-padding',navigationHeight+"px");
 
 })(jQuery);
