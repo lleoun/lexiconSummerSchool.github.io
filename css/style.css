@@ -351,8 +351,26 @@ px-5{padding-right:1rem !important;padding-left:1rem !important}
         bottom: 130px;
         z-index: 99;
     }
+    .img-fluid {
+        margin-bottom: 3rem !important;
+    }
 
+} /* final PANTALLAS MEDIA PEQUEÑAS */
+
+.display-5b {
+    font-size: calc(1.025rem + 2.1vw);
+    font-weight: 700;
+    line-height: 1.2;
+    color: white !important;
 }
+
+@media (min-width: 1200px) {
+    .display-5b {
+        font-size: 2rem;
+        color: white !important;
+    }
+}
+
 
 .form-floating>label {
     position: absolute;
@@ -396,16 +414,3 @@ px-5{padding-right:1rem !important;padding-left:1rem !important}
     padding-bottom: .625rem
 } */
 
-.display-5b {
-    font-size: calc(1.025rem + 2.1vw);
-    font-weight: 700;
-    line-height: 1.2;
-    color: white !important;
-}
-
-@media (min-width: 1200px) {
-    .display-5b {
-        font-size: 2rem;
-        color: white !important;
-    }
-}
