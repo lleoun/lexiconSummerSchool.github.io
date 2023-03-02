@@ -9,12 +9,12 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: var(--scroll-padding, 50px); /* se va a 50px (height of sticky header) si no entra el javascript de main.js en acción */
 }
-a {
+#fontDiscreta13 a {
     color: #6B6A75 !important;
     text-decoration: none;
 }
 
-a:hover {
+#fontDiscreta13 a:hover {
     color: #6B6A75 !important;
 }
 /* body{
