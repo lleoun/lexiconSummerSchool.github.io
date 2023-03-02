@@ -402,7 +402,12 @@ px-5{padding-right:1rem !important;padding-left:1rem !important}
         transition: none
     }
 }
-
+#fontDiscreta13{
+    font-size: 13px;
+}
+#fontDiscreta12{
+    font-size: 13px;
+}
 /* .form-floating>.form-control::placeholder {
     color: transparent
 }
