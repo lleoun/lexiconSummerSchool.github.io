@@ -415,6 +415,10 @@ px-5{padding-right:1rem !important;padding-left:1rem !important}
 #fontDiscreta12{
     font-size: 12px;
 }
+.byBus{
+    color: #e19d47 !important;
+    text-decoration: underline;
+}
 /* .form-floating>.form-control::placeholder {
     color: transparent
 }
